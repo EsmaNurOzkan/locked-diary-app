@@ -5,13 +5,13 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDBgLvO9PKAyIEdqoeou90oy0tEAtUatds",
-    authDomain: "diary-app-upgrated.firebaseapp.com",
-    projectId: "diary-app-upgrated",
-    storageBucket: "diary-app-upgrated.appspot.com",
-    messagingSenderId: "17969906755",
-    appId: "1:17969906755:android:8a6b70efbd4369b0ec80f6",
-};
+     apiKey: "your-api-key",
+     authDomain: "your-auth-domain",
+     projectId: "your-project-id",
+     storageBucket: "your-storage-bucket",
+     messagingSenderId: "your-messaging-sender-id",
+     appId: "your-app-id"
+   };
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
