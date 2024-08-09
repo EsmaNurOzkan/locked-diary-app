@@ -28,6 +28,9 @@ Locked Diary App is a secure mobile application built with React Native and Fire
 - [Firebase Account](https://firebase.google.com/)
 - **Firestore Setup:** Create a Firebase project and set up Firestore to store diary entries.
 
+  
+
+
 ### Clone the Repository
 
 ```bash
@@ -38,9 +41,33 @@ npx expo start
 
 ### Firebase Configuration
 
-- Go to the Firebase Console.
-- Create a new project or use an existing one.
-- Add your Android/iOS app to the Firebase project and follow the instructions to get your firebaseConfig object.
-- Replace the contents of utils/firebaseConfig.js with your Firebase configuration object.
+To configure Firebase for your project, follow these steps:
+
+1. **Go to the Firebase Console:**
+   - Visit the [Firebase Console](https://console.firebase.google.com/).
+
+2. **Create a New Project or Use an Existing One:**
+   - Start a new project or select an existing one from your Firebase Console.
+
+3. **Add Your Android/iOS App to the Firebase Project:**
+   - Follow the instructions in the Firebase Console to add your app (Android/iOS) to the Firebase project and obtain your `firebaseConfig` object.
+
+4. **Replace the Contents of `utils/firebaseConfig.js`:**
+   - Open the `utils/firebaseConfig.js` file in your project directory.
+   - Replace its contents with your Firebase configuration object. The file should look like this:
+
+    ```javascript
+    // utils/firebaseConfig.js
+
+    export const firebaseConfig = {
+      apiKey: "YOUR_API_KEY",
+      authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+      projectId: "YOUR_PROJECT_ID",
+      storageBucket: "YOUR_PROJECT_ID.appspot.com",
+      messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+      appId: "YOUR_APP_ID"
+    };
+    ```
+
 
 
