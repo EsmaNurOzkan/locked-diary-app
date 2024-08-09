@@ -1,9 +1,9 @@
 <p float="left">
-  <img src="./assets/IMG_8642.PNG" alt="Image 1" width="300" />
-  <img src="./assets/IMG_8641.PNG" alt="Image 2" width="300" />
-  <img src="./assets/IMG_8643.PNG" alt="Image 3" width="300" />
-  <img src="./assets/IMG_8644.PNG" alt="Image 4" width="300" />
-  <img src="./assets/IMG_8645.PNG" alt="Image 5" width="300" />
+  <img src="./assets/IMG_8642.PNG" alt="Image 1" width="250" />
+  <img src="./assets/IMG_8641.PNG" alt="Image 2" width="250" />
+  <img src="./assets/IMG_8643.PNG" alt="Image 3" width="250" />
+  <img src="./assets/IMG_8644.PNG" alt="Image 4" width="250" />
+  <img src="./assets/IMG_8645.PNG" alt="Image 5" width="250" />
 </p>
 
 
