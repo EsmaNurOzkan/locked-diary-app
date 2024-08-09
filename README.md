@@ -2,7 +2,8 @@
 
 ## Overview
 
-Locked Diary App is a secure mobile application built with React Native and Firebase, allowing users to maintain private diary entries that are encrypted for maximum security. This application is ideal for those looking to keep their personal notes safe from unauthorized access.
+Locked Diary App is a secure mobile application built with React Native and Firebase. It allows users to maintain private diary entries that are encrypted with end-to-end encryption for maximum security. Each entry is encrypted with a unique key provided by the user during login, ensuring that only the user who created the entry can decrypt and view it. This application is ideal for those looking to keep their personal notes safe from unauthorized access, offering a high level of privacy and protection.
+
 
 ## Features
 
@@ -10,7 +11,6 @@ Locked Diary App is a secure mobile application built with React Native and Fire
 - **Authentication:** Users can sign up, log in, and reset their passwords using Firebase Authentication.
 - **Diary Entries:** Users can create, view, and edit their daily diary entries.
 - **Encryption:** Each entry is encrypted with a user-specific key, ensuring that only the owner can decrypt and read their entries.
-- **Expo Integration:** Built using Expo for an enhanced development experience.
 
 ## Technologies Used
 
@@ -70,6 +70,21 @@ To configure Firebase for your project, follow these steps:
       appId: "YOUR_APP_ID"
     };
     ```
+
+    ## Usage
+
+- **Sign Up / Log In:** Create a new account or log in with existing credentials.
+- **Add Diary Entries:** Create new diary entries and secure them with encryption.
+- **View/Edit Entries:** Access your diary entries securely and make edits as needed.
+
+
+
+## Contact
+
+For any questions or inquiries, please contact:
+
+- **Email:** esmanuozkan@icloud.com
+
 
 
 
