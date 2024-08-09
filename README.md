@@ -1,3 +1,10 @@
+![Image 1](assets/IMG_8641.png)
+![Image 2](assets/IMG_8642.png)
+![Image 3](assets/IMG_8643.png)
+![Image 4](assets/IMG_8644.png)
+![Image 5](assets/IMG_8645.png)
+
+
 # Locked Diary App
 
 ## Overview
