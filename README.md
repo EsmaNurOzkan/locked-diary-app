@@ -36,7 +36,9 @@ Locked Diary App is a secure mobile application built with React Native and Fire
 ```bash
 git clone https://github.com/EsmaNurOzkan/locked-diary-app.git
 cd locked-diary-app
-npx expo start```
+npx expo start
+```
+
 
 
 ### Firebase Configuration
