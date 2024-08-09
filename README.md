@@ -33,3 +33,14 @@ Locked Diary App is a secure mobile application built with React Native and Fire
 ```bash
 git clone https://github.com/EsmaNurOzkan/locked-diary-app.git
 cd locked-diary-app
+npx expo start
+
+
+### Firebase Configuration
+
+- Go to the Firebase Console.
+- Create a new project or use an existing one.
+- Add your Android/iOS app to the Firebase project and follow the instructions to get your firebaseConfig object.
+- Replace the contents of utils/firebaseConfig.js with your Firebase configuration object.
+
+
