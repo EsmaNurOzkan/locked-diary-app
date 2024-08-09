@@ -1,8 +1,12 @@
-![Image 1](assets/IMG_8641.png)
-![Image 2](assets/IMG_8642.png)
-![Image 3](assets/IMG_8643.png)
-![Image 4](assets/IMG_8644.png)
-![Image 5](assets/IMG_8645.png)
+<p float="left">
+  <img src="./assets/IMG_8642.PNG" alt="Image 1" width="300" />
+  <img src="./assets/IMG_8641.PNG" alt="Image 2" width="300" />
+  <img src="./assets/IMG_8643.PNG" alt="Image 3" width="300" />
+  <img src="./assets/IMG_8644.PNG" alt="Image 4" width="300" />
+  <img src="./assets/IMG_8645.PNG" alt="Image 5" width="300" />
+</p>
+
+
 
 
 # Locked Diary App
@@ -17,7 +21,7 @@ Locked Diary App is a secure mobile application built with React Native and Fire
 - **Secure Storage:** All diary entries are encrypted and stored securely in Firebase Firestore.
 - **Authentication:** Users can sign up, log in, and reset their passwords using Firebase Authentication.
 - **Diary Entries:** Users can create, view, and edit their daily diary entries.
-- **Encryption:** Each entry is encrypted with a user-specific key, ensuring that only the owner can decrypt and read their entries.
+- **Encryption:** Each diary entry is encrypted with a user-specific key, ensuring that only the owner can decrypt and read their entries.
 
 ## Technologies Used
 
