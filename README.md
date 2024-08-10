@@ -50,7 +50,13 @@ cd locked-diary-app
 npx expo start
 ```
 
+## Project Dependencies
 
+This project uses multiple npm packages (over 20). After cloning the repository, run the following command to install all necessary dependencies:
+
+```bash
+npm install
+```
 
 ### Firebase Configuration
 
