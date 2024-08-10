@@ -18,7 +18,6 @@ export const confirmPasswordReset = async (oobCode, newPassword) => {
   }
 };
 
-// Yeni kullanıcı oluşturma
 export const registerUser = async (email, password) => {
   try {
     await createUserWithEmailAndPassword(auth, email, password);
@@ -27,7 +26,6 @@ export const registerUser = async (email, password) => {
   }
 };
 
-// Kullanıcı girişi yapma
 export const loginUser = async (email, password) => {
   try {
     await signInWithEmailAndPassword(auth, email, password);
@@ -36,7 +34,6 @@ export const loginUser = async (email, password) => {
   }
 };
 
-// Kullanıcı çıkışı yapma
 export const logoutUser = async () => {
   try {
     await signOut(auth);
